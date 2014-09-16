@@ -1,0 +1,37 @@
+{
+  "name": "mongodb-uuid",
+  "version": "0.1.0",
+  "main": "lib/mongodb-uuid.js",
+  "description": "NodeJS representation for UUID custom type for MongoDB",
+  "homepage": "https://github.com/faustman/mongodb-uuid",
+  "bugs": "https://github.com/faustman/mongodb-uuid/issues",
+  "author": {
+    "name": "Andrij Tytar",
+    "email": "andrij.tytar@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faustman/mongodb-uuid"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "mongodb-uuid",
+    "mongodb",
+    "uuid"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
